@@ -14,7 +14,7 @@ class FriendRequest(models.Model):
         ('pending', 'Pending'),
         ('accepted', 'Accepted'),
         ('rejected', 'Rejected'),
-    ], default='pending')  # todo: can be moved to enums.
+    ], default='pending', db_index=True)  # todo: can be moved to enums.
 
     class Meta:
         unique_together = ('sender', 'receiver')
