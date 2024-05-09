@@ -77,11 +77,10 @@ This project implements a RESTful API for a social networking application using 
 
 #### Authentication:
 
-    Include the JWT access token in the Authorization header of requests (e.g., `Authorization: Bearer <YOUR_ACCESS_TOKEN>`).
+* Include the JWT access token in the Authorization header of requests (e.g., `Authorization: Bearer <YOUR_ACCESS_TOKEN>`).
 
 #### Postman Collection:
-
-   Create a Postman collection with requests for each API endpoint, including examples and documentation to facilitate easy testing and evaluation.
+* Please find the public postman collection here: `https://www.postman.com/narendra-reddy-333/workspace/social-network-api/collection/8366126-1f80783e-56d0-4855-8b97-262247746da3?action=share&creator=8366126`
 
 ### Docker Setup
 
@@ -98,4 +97,3 @@ This project implements a RESTful API for a social networking application using 
 2. **Run the container:**
     ```bash
    docker-compose up
-
