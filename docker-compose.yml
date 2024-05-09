@@ -1,0 +1,12 @@
+# docker-compose.yml
+
+version: "3.12"
+
+services:
+  web:
+    build: .
+    # Remove the 'command' line here
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
